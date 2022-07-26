@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grillaGeneral{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "footer footer footer"
+    ;
+}
+header{
+    grid-area: header;
+    background-color: #DCD7C9;
+}
+h1{
+    grid-area: h1;
+    background-color: #a97952;
+    color: wheat;
+    padding: 30px;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+/* listas de barra de navegación de todos los html */
+li{
+    display: inline-flex;
+}
+/* barra de navegación de todos los html */
+.barraNav{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+}
+.barraNav li a{
+    margin: 20px 20px 0px 20px;
+    text-decoration: none;
+    color: #a97952;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.barraNav li:hover{
+    transform: scale(1.3);
+    transition: all 1.3s;
+}
+main{
+    grid-area: main;
+}
+/* texto antes de imagen de productos destacados en página de inicio */
+.productosDestacados{
+    margin: 0px 0px 10px 0px;
+    padding: 30px;
+    background-color: #DCD7C9;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 200%;
+}
+img{
+    border: 5px solid #a97952;
+}
+/* imagen de productos destacados en página de inicio */
+.imgProductosDestacados{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* texto abajo de la imagen de productos destacados en página de inicio */
+.descripcionProductosDestacados{
+    grid-area: descripcionProductosDestacados;
+    padding: 40px;
+    background-color: #DCD7C9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+/* texto sobre fondo con foto relacionado al proposito del empresario */
+.nuestroProposito{
+    grid-area: nuestroProposito;
+    margin: 10px 10px 10px 10px;
+    padding: 300px;
+    background-image: url("../image/vehiculo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #DCD7C9;
+}
+/* estilo de las fotos en el html galeria */
+.galery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #DCD7C9;
+}
+.galery img{
+    margin: 20px;
+    width: 200px;
+}
+.galery div:hover{
+    transform: scale(1.3);
+    transition: all 1.5s;
+}
+/*footer de todos los html */
+footer{
+    grid-area: footer;
+    background-color: #a97952;
+    padding: 30px;
+}
+footer li:hover{
+    transform: scale(1.5);
+}
+@media (max-width:800px){
+    .nuestroProposito{
+        background-image: none;
+        background-color: #a97952;
+    }
+    body{
+        text-align: center;
+    }
+    .imgProductosDestacados{
+        flex-direction: column;
+        align-content: space-around;
+    }
+}
