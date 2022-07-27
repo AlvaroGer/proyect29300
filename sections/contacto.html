@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -31,24 +32,47 @@
                 </nav>
                 <h1><img src="../image/logoPakingya.jpg" alt="pakingYa" width="300px" height="150"></h1>
             </header>
-            <main>
-                <form class="formularioContacto">
-                    <label for="nombre">Nombre</label>
-                    <input id="nombre" name="nombre" placeholder="Nombre" type="text">
-                    <br>
-                    <label for="telefono">Telefono</label>
-                    <input id="telefono" name="telefono" placeholder="Telefono" type="number">
-                    <br>
-                    <label for="direccion">Dirección</label>
-                    <input type="text" id="direccion" name="direccion" placeholder="direccion">
-                    <br>
-                    <label for="email">Email</label>
-                    <input type="text" id="email" name="email" placeholder="email">
-                    <br>
-                    <label for="comentaios">Comentarios</label>
-                    <br>
-                    <textarea name="comentarios" id="comentarios" name="comentarios" placeholder=" ingrese comentarios" cols="30" rows="10"></textarea>
-                </form>
+            <main class="formContact">
+                <form class="row g-3">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Nombre</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label">Email</label>
+                      <input type="text" class="form-control" id="inputAddress" placeholder="Email">
+                    </div>
+                    <div class="col-12">
+                      <label for="inputAddress2" class="form-label">Dirección</label>
+                      <input type="text" class="form-control" id="inputAddress2" placeholder="Dirección">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputCity" class="form-label">Teléfono</label>
+                      <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                      <label for="inputState" class="form-label">Ciudad</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>elegir</option>
+                        <option>...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-2">
+                      <label for="inputZip" class="form-label">Codigo Postal</label>
+                      <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                          Acépto términos y condiciones
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-primary">Enviar</button>
+                    </div>
+                  </form>
             </main>
             <footer>
                 <ul>
