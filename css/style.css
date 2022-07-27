@@ -74,9 +74,9 @@ img{
 }
 /* texto sobre fondo con foto relacionado al proposito del empresario */
 .nuestroProposito{
-    margin: 10px 10px 10px 10px;
-    padding: 300px;
-    background-image: url("../image/vehiculo.jpg");
+    margin: 10px 0px 10px 0px;
+    padding: 40px;
+    background-color: #ba9272;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -118,10 +118,6 @@ footer li:hover{
     transform: scale(1.5);
 }
 @media (max-width:800px){
-    .nuestroProposito{
-        background-image: none;
-        background-color: #a97952;
-    }
     body{
         text-align: center;
     }
@@ -130,3 +126,27 @@ footer li:hover{
         align-content: space-around;
     }
 }
+/**media query 576px**/
+@media screen (max-whidt:576px) {
+    .grillaGeneral {
+        display: grid;
+        grid-template-colums: repeat (1,1fr)
+        grid-templeate-areas:
+        "header"
+        "main"
+        "footer"
+    }
+}
+/**media query 768px**/
+@media screen (max-whidt:768px) {
+    .grillaGeneral {
+        display: grid;
+        grid-template-colums: repeat (2,1fr)
+        grid-templeate-areas:
+        "header header"
+        "main main"
+        "footer footer"
+    }
+}
+
+
