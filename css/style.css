@@ -1,152 +1,144 @@
-*{
-    margin: 0;
-    padding: 0;
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
 }
-.grillaGeneral{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-areas: 
-    "header header header"
-    "main main main"
-    "footer footer footer"
-    ;
+
+.grillaGeneral {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-areas: "header header header" "main main main" "footer footer footer";
 }
-header{
-    grid-area: header;
-    background-color: #DCD7C9;
+
+header {
+  grid-area: header;
 }
-h1{
-    grid-area: h1;
-    background-color: #a97952;
-    color: wheat;
-    padding: 30px;
-    margin: 20px 0px 0px 0px;
-    text-align: center;
+
+main {
+  grid-area: main;
 }
-/* listas de barra de navegación de todos los html */
-li{
-    display: inline-flex;
+
+footer {
+  grid-area: footer;
 }
-/* barra de navegación de todos los html */
-.barraNav{
-    list-style: none;
-    padding: 10px;
-    font-size: 20px;
-}
-.barraNav li a{
-    margin: 20px 20px 0px 20px;
-    text-decoration: none;
-    color: #a97952;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.barraNav li:hover{
-    transform: scale(1.3);
-    transition: all 1.3s;
-}
-main{
-    grid-area: main;
-}
-/* texto antes de imagen de productos destacados en página de inicio */
-.productosDestacados{
-    margin: 0px 0px 10px 0px;
-    padding: 30px;
-    background-color: #DCD7C9;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 200%;
-}
-img{
-    border: 5px solid #a97952;
-}
-/* imagen de productos destacados en página de inicio */
-.imgProductosDestacados{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-/* texto abajo de la imagen de productos destacados en página de inicio */
-.descripcionProductosDestacados{
-    padding: 40px;
-    background-color: #DCD7C9;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 150%;
-    text-align: center;
-}
-/* texto sobre fondo con foto relacionado al proposito del empresario */
-.nuestroProposito{
-    margin: 10px 0px 10px 0px;
-    padding: 40px;
-    background-color: #ba9272;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    font-size: 70px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: #DCD7C9;
-}
-/* estilo de las fotos en el html galeria */
-.galery{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #DCD7C9;
-}
-.galery img{
-    margin: 20px;
-    width: 200px;
-}
-.galery div:hover{
-    transform: scale(1.3);
-    transition: all 1.5s;
-}
-.formContact{
-    padding: 80px;
-    background-color: #DCD7C9;
-}
-form{
-    background-color: #DCD7C9;
-    color: black;
-}
+
 /*footer de todos los html */
-footer{
-    grid-area: footer;
-    background-color: #a97952;
-    padding: 30px;
-}
-footer li:hover{
-    transform: scale(1.5);
-}
-@media (max-width:800px){
-    body{
-        text-align: center;
-    }
-    .imgProductosDestacados{
-        flex-direction: column;
-        align-content: space-around;
-    }
-}
-/**media query 576px**/
-@media screen (max-whidt:576px) {
-    .grillaGeneral {
-        display: grid;
-        grid-template-colums: repeat (1,1fr)
-        grid-templeate-areas:
-        "header"
-        "main"
-        "footer"
-    }
-}
-/**media query 768px**/
-@media screen (max-whidt:768px) {
-    .grillaGeneral {
-        display: grid;
-        grid-template-colums: repeat (2,1fr)
-        grid-templeate-areas:
-        "header header"
-        "main main"
-        "footer footer"
-    }
+footer {
+  grid-area: footer;
+  background-color: #a97952;
+  padding: 30px;
 }
 
+footer li:hover {
+  transform: scale(1.5);
+}
 
+header {
+  background-color: #DCD7C9;
+}
+
+h1 {
+  background-color: #a97952;
+  color: wheat;
+  padding: 30px;
+  margin: 20px 0px 0px 0px;
+  text-align: center;
+}
+
+/* listas de barra de navegación de todos los html */
+li {
+  display: inline-flex;
+}
+
+/* barra de navegación de todos los html */
+.barraNav {
+  list-style: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.barraNav li a {
+  margin: 20px 20px 0px 20px;
+  text-decoration: none;
+  color: #a97952;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.barraNav li:hover {
+  transform: scale(1.3);
+  transition: all 1.3s;
+}
+
+/* texto antes de imagen de productos destacados en página de inicio */
+.productosDestacados {
+  margin: 0px 0px 10px 0px;
+  padding: 30px;
+  background-color: #DCD7C9;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 200%;
+}
+
+img {
+  border: 5px solid #a97952;
+}
+
+/* imagen de productos destacados en página de inicio */
+.imgProductosDestacados {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* texto abajo de la imagen de productos destacados en página de inicio */
+.descripcionProductosDestacados {
+  padding: 40px;
+  background-color: #DCD7C9;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150%;
+  text-align: center;
+}
+
+/* texto sobre fondo con foto relacionado al proposito del empresario */
+.nuestroProposito {
+  margin: 10px 0px 10px 0px;
+  padding: 40px;
+  background-color: #ba9272;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #DCD7C9;
+}
+
+/* estilo de las fotos en el html galeria */
+.galery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #DCD7C9;
+}
+
+.galery img {
+  margin: 20px;
+  width: 200px;
+}
+
+.galery div:hover {
+  transform: scale(1.3);
+  transition: all 1.5s;
+}
+
+.formContact {
+  padding: 80px;
+  background-color: #DCD7C9;
+}
+
+form {
+  background-color: #DCD7C9;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

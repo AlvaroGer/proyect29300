@@ -1,0 +1,9 @@
+/*footer de todos los html */
+footer{
+    grid-area: footer;
+    background-color: #a97952;
+    padding: 30px;
+}
+footer li:hover{
+    transform: scale(1.5);
+}
