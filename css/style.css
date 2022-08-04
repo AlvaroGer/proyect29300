@@ -33,6 +33,19 @@ footer li:hover {
   transform: scale(1.5);
 }
 
+@media (max-width: 768px) {
+  .grillaGeneral {
+    display: grid;
+    grid-template-columns: repeat 2, 1fr grid-templeate-areas "header header" "main main" "footer footer";
+  }
+  body {
+    text-align: center;
+  }
+  .imgProductosDestacados {
+    flex-direction: column;
+    align-content: space-around;
+  }
+}
 header {
   background-color: #DCD7C9;
 }
