@@ -12,7 +12,7 @@ header{
 h1{
     background-color: $basecolor;
     color: wheat;
-    padding: 30px;
+    padding: 10px;
     margin: 20px 0px 0px 0px;
     text-align: center;
 }
@@ -23,7 +23,7 @@ li{
 /* barra de navegación de todos los html */
 .barraNav{
     list-style: none;
-    padding: 10px;
+    padding: 3px;
     font-size: 20px;
 }
 .barraNav li a{
@@ -53,6 +53,9 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.card{
+    background-color: #fbf8f0;
 }
 /* texto abajo de la imagen de productos destacados en página de inicio */
 .descripcionProductosDestacados{
