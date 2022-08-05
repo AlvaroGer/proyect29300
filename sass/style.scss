@@ -7,34 +7,28 @@ $basecolor: #a97952;
 @import "footer";
 @import "media";
 header{
-    background-color: #DCD7C9;
-}
-h1{
     background-color: $basecolor;
-    color: wheat;
-    padding: 10px;
-    margin: 20px 0px 0px 0px;
-    text-align: center;
+    text-align: center
 }
 /* listas de barra de navegación de todos los html */
 li{
     display: inline-flex;
 }
 /* barra de navegación de todos los html */
-.barraNav{
-    list-style: none;
-    padding: 3px;
-    font-size: 20px;
+.navbar{
+    background-color: $basecolor;
 }
-.barraNav li a{
-    margin: 20px 20px 0px 20px;
-    text-decoration: none;
-    color: $basecolor;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.collapse{
+    background-color: $basecolor;
 }
-.barraNav li:hover{
-    transform: scale(1.3);
-    transition: all 1.3s;
+.container-fluid{
+    background-color: $basecolor;
+}
+.d-flex{
+    background-color: #a97952;
+}
+.dropdown-menu{
+    background-color: #cfad91;
 }
 /* texto antes de imagen de productos destacados en página de inicio */
 .productosDestacados{
