@@ -47,9 +47,18 @@ footer li:hover {
     align-content: space-around;
   }
 }
+.navbar-nav li a {
+  transition: all 0.5s ease;
+}
+
+.navbar-nav li a:hover {
+  background: #DCD7C9;
+  color: #000;
+  border-radius: 15px;
+}
+
 header {
   background-color: #a97952;
-  text-align: center;
 }
 
 /* barra de navegación de todos los html */
@@ -121,7 +130,7 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #DCD7C9;
 }

@@ -1,0 +1,10 @@
+.navbar-nav li a{
+    transition: all 0.5s ease;
+}
+
+.navbar-nav li a:hover{
+    background: #DCD7C9;
+    color: #000;
+    border-radius: 15px;
+    
+}

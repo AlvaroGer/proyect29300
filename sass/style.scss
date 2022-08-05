@@ -8,10 +8,10 @@ $basecolor: #a97952;
 @import "grid";
 @import "footer";
 @import "media";
+@import "navbar";
 //inicio css general
 header{
     background-color: $basecolor;
-    text-align: center
 }
 /* barra de navegación de todos los html */
 .navbar{
@@ -71,7 +71,7 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #DCD7C9;
 }
