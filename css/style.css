@@ -51,11 +51,6 @@ header {
   text-align: center;
 }
 
-/* listas de barra de navegación de todos los html */
-li {
-  display: inline-flex;
-}
-
 /* barra de navegación de todos los html */
 .navbar {
   background-color: #a97952;
@@ -75,6 +70,11 @@ li {
 
 .dropdown-menu {
   background-color: #cfad91;
+}
+
+/* listas de barra de navegación de todos los html */
+li {
+  display: inline-flex;
 }
 
 /* texto antes de imagen de productos destacados en página de inicio */
