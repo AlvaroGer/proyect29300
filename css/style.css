@@ -27,6 +27,7 @@ footer {
   grid-area: footer;
   background-color: #a97952;
   padding: 30px;
+  text-align: center;
 }
 
 footer li:hover {
@@ -95,7 +96,7 @@ img {
 .imgProductosDestacados {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .card {

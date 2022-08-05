@@ -32,7 +32,7 @@ header{
 /* listas de barra de navegación de todos los html */
 li {
     display: inline-flex;
-  }
+}
 /* texto antes de imagen de productos destacados en página de inicio */
 .productosDestacados{
     margin: 0px 0px 10px 0px;
@@ -49,7 +49,7 @@ img{
 .imgProductosDestacados{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .card{
     background-color: #fbf8f0;
