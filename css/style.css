@@ -1,4 +1,8 @@
-@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .grillaGeneral {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -74,12 +78,6 @@ header .dropdown-menu {
   background-color: #cfad91;
 }
 
-section {
-  /* texto antes de imagen de productos destacados en página de inicio */
-  /* imagen de productos destacados en página de inicio */
-  /* texto abajo de la imagen de productos destacados en página de inicio */
-  /* texto sobre fondo con foto relacionado al proposito del empresario */
-}
 section .productosDestacados {
   margin: 0px 0px 10px 0px;
   padding: 30px;
@@ -133,13 +131,13 @@ section .nuestroProposito {
   transition: all 1.5s;
 }
 
-form {
-  background-color: #DCD7C9;
-  color: black;
-}
-form .formContact {
+.formContact {
   padding: 80px;
   background-color: #DCD7C9;
+}
+.formContact form {
+  background-color: #DCD7C9;
+  color: black;
 }
 
 main {
