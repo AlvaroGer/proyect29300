@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Encabezado de todos los html */
+header{
+    grid-area: header;
+    background-color: $basecolor;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+        .navbar-nav {
+            li {
+                display: inline-flex;
+                a {
+                    transition: all 0.5s ease;
+                    &:hover {
+                        background: #DCD7C9;
+                        color: #000;
+                        border-radius: 15px;
+                    }
+                }
+            }
+        }
+        .navbar{
+            background-color: $basecolor;
+        }
+        .collapse{
+            background-color: $basecolor;
+        }
+        .container-fluid{
+            background-color: $basecolor;
+        }
+        .d-flex{
+            background-color: #a97952;
+        }
+        .dropdown-menu{
+            background-color: #cfad91;
+        }
+        
+    }
+
+
+

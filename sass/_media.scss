@@ -1,15 +1,15 @@
 @media (max-width:768px) {
-	.grillaGeneral {
-		display: grid;
-		grid-template-columns: repeat (2,1fr) grid-templeate-areas "header header" 
-        "main main" 
-        "footer footer";
-	}
 	body {
 		text-align: center;
-	}
-	.imgProductosDestacados {
-		flex-direction: column;
-		align-content: space-around;
+			.grillaGeneral {
+				display: grid;
+				grid-template-columns: repeat (2,1fr) grid-templeate-areas "header header" 
+				"main main" 
+				"footer footer";
+			}
+			.imgProductosDestacados {
+				flex-direction: column;
+				align-content: space-around;
+			}
 	}
 }

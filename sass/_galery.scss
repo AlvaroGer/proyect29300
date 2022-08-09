@@ -1,0 +1,17 @@
+/* estilo de las fotos en el html galeria */
+.galery {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #DCD7C9;
+        img {
+            margin: 20px;
+            width: 200px;
+        }
+        div {
+            &:hover {
+                transform: scale(1.3);
+                transition: all 1.5s;
+            }
+	    }
+}

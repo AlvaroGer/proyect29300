@@ -5,6 +5,7 @@ footer {
 	padding: 30px;
 	text-align: center;
 	li {
+		display: inline-flex;
 		&:hover {
 			transform: scale(1.5);
 		}

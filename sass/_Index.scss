@@ -1,0 +1,42 @@
+section{
+    /* texto antes de imagen de productos destacados en página de inicio */
+    .productosDestacados{
+        margin: 0px 0px 10px 0px;
+        padding: 30px;
+        background-color: #DCD7C9;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 200%;
+    }
+    /* imagen de productos destacados en página de inicio */
+    .imgProductosDestacados{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .card{
+        background-color: #fbf8f0;
+    }
+    /* texto abajo de la imagen de productos destacados en página de inicio */
+    .descripcionProductosDestacados{
+        margin-top: 10px;
+        padding: 40px;
+        background-color: #DCD7C9;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 150%;
+        text-align: center;
+    }
+    /* texto sobre fondo con foto relacionado al proposito del empresario */
+    .nuestroProposito{
+        margin: 10px 0px 10px 0px;
+        padding: 40px;
+        background-color: #ba9272;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #DCD7C9;
+    }
+}
