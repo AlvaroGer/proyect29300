@@ -1,18 +1,16 @@
-.grillaGeneral{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-areas: 
-    "header header header"
+.grillaGeneral {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-areas: "header header header"
     "main main main"
-    "footer footer footer"
-    ;
+    "footer footer footer";
 }
-header{
-    grid-area: header;
+header {
+	grid-area: header;
 }
-main{
-    grid-area: main;
+main {
+	grid-area: main;
 }
-footer{
-    grid-area: footer;
+footer {
+	grid-area: footer;
 }

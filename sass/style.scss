@@ -12,6 +12,11 @@ $basecolor: #a97952;
 //inicio css general
 header{
     background-color: $basecolor;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 3;
 }
 /* barra de navegación de todos los html */
 .navbar{
@@ -34,6 +39,9 @@ li {
     display: inline-flex;
 }
 /* texto antes de imagen de productos destacados en página de inicio */
+main{
+    margin-top: 12rem;
+}
 .productosDestacados{
     margin: 0px 0px 10px 0px;
     padding: 30px;
@@ -56,6 +64,7 @@ img{
 }
 /* texto abajo de la imagen de productos destacados en página de inicio */
 .descripcionProductosDestacados{
+    margin-top: 10px;
     padding: 40px;
     background-color: #DCD7C9;
     font-family: Arial, Helvetica, sans-serif;
@@ -76,27 +85,30 @@ img{
     color: #DCD7C9;
 }
 /* estilo de las fotos en el html galeria */
-.galery{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #DCD7C9;
+.galery {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #DCD7C9;
+	img {
+		margin: 20px;
+		width: 200px;
+	}
+	div {
+		&:hover {
+			transform: scale(1.3);
+			transition: all 1.5s;
+		}
+	}
 }
-.galery img{
-    margin: 20px;
-    width: 200px;
+.formContact {
+	padding: 80px;
+	background-color: #DCD7C9;
 }
-.galery div:hover{
-    transform: scale(1.3);
-    transition: all 1.5s;
+form {
+	background-color: #DCD7C9;
+	color: black;
 }
-.formContact{
-    padding: 80px;
-    background-color: #DCD7C9;
-}
-form{
-    background-color: #DCD7C9;
-    color: black;
-}
+
 
 
