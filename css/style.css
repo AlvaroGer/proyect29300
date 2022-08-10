@@ -12,16 +12,14 @@
     display: grid;
     grid-template-columns: repeat 2, 1fr grid-templeate-areas "header header" "main main" "footer footer";
   }
-  body .imgProductosDestacados {
+  body main {
+    margin-top: 15rem;
+  }
+  body main .imgProductosDestacados {
     flex-direction: column;
     align-content: space-around;
   }
 }
-* {
-  margin: 0;
-  padding: 0;
-}
-
 /* Encabezado de todos los html */
 header {
   grid-area: header;
@@ -43,16 +41,7 @@ header .navbar-nav li a:hover {
   color: #000;
   border-radius: 15px;
 }
-header .navbar {
-  background-color: #a97952;
-}
-header .collapse {
-  background-color: #a97952;
-}
-header .container-fluid {
-  background-color: #a97952;
-}
-header .d-flex {
+header .navbar, header .d-flex, header .container-fluid, header .collapse {
   background-color: #a97952;
 }
 header .dropdown-menu {

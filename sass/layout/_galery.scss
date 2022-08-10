@@ -5,8 +5,7 @@
 	flex-wrap: wrap;
 	background-color: #DCD7C9;
         img {
-            margin: 20px;
-            width: 200px;
+            @include margen
         }
         div {
             &:hover {

@@ -7,9 +7,12 @@
 				"main main" 
 				"footer footer";
 			}
+			main{
+				margin-top: 15rem;
 			.imgProductosDestacados {
 				flex-direction: column;
 				align-content: space-around;
 			}
+		}
 	}
 }

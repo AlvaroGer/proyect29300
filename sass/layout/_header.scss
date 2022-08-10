@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 /* Encabezado de todos los html */
 header{
     grid-area: header;
@@ -28,13 +25,13 @@ header{
             background-color: $basecolor;
         }
         .collapse{
-            background-color: $basecolor;
+            @extend .navbar;
         }
         .container-fluid{
-            background-color: $basecolor;
+            @extend .navbar;
         }
         .d-flex{
-            background-color: #a97952;
+            @extend .navbar;
         }
         .dropdown-menu{
             background-color: #cfad91;
