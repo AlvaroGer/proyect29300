@@ -1,17 +1,15 @@
+@import "./utilities/variables";
+@import "./utilities/grid";
+@import "./utilities/media";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/Index";
+@import "./layout/galery";
+@import "./layout/contact";
 *{
     margin: 0;
     padding: 0;
 }
-// variables
-$basecolor: #a97952;
-//importaciones
-@import "grid";
-@import "footer";
-@import "media";
-@import "header";
-@import "Index";
-@import "galery";
-@import "contact";
 //inicio css general
 main{
     grid-area: main;

@@ -1,26 +1,7 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .grillaGeneral {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-areas: "header header header" "main main main" "footer footer footer";
-}
-
-/*footer de todos los html */
-footer {
-  grid-area: footer;
-  background-color: #a97952;
-  padding: 30px;
-  text-align: center;
-}
-footer li {
-  display: inline-flex;
-}
-footer li:hover {
-  transform: scale(1.5);
 }
 
 @media (max-width: 768px) {
@@ -76,6 +57,20 @@ header .d-flex {
 }
 header .dropdown-menu {
   background-color: #cfad91;
+}
+
+/*footer de todos los html */
+footer {
+  grid-area: footer;
+  background-color: #a97952;
+  padding: 30px;
+  text-align: center;
+}
+footer li {
+  display: inline-flex;
+}
+footer li:hover {
+  transform: scale(1.5);
 }
 
 section .productosDestacados {
@@ -138,6 +133,11 @@ section .nuestroProposito {
 .formContact form {
   background-color: #DCD7C9;
   color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 main {
