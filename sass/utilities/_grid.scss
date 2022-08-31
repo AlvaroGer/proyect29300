@@ -6,3 +6,15 @@
     "main main main"
     "footer footer footer";
 }
+.grillasobremi{
+	display: grid;
+	align-items: center;
+	padding: auto;
+	background-color: $secoundcolor;
+	grid-template-columns: 1.5fr 1.5fr;
+    grid-template-areas: 
+	"h1sobremi h1sobremi"
+	"imgsobremi h2sobremi"
+	"h3sobremi1 imgsobremi1"
+}
+

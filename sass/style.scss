@@ -1,25 +1,16 @@
 @import "./utilities/variables";
+@import "./utilities/general";
 @import "./utilities/grid";
 @import "./utilities/media";
 @import "./layout/header";
 @import "./layout/footer";
 @import "./layout/Index";
+@import "./layout/catalogo";
+@import "./layout/sobremi";
 @import "./layout/galery";
 @import "./layout/contact";
 @import "./utilities/_mixin.scss";
-*{
-    margin: 0;
-    padding: 0;
-}
-//inicio css general
-main{
-    grid-area: main;
-    margin-top: 12rem;
-}
-//img generales
-img{
-    border: 5px solid $basecolor;
-}
+
 
 
 

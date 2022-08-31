@@ -1,0 +1,41 @@
+.sobremi{
+        grid-area: h1sobremi;
+        width: 100%;
+        padding: 30px;
+        background-color: $thirdcolor;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 150%;
+}
+.imgsobremi{
+    grid-area: imgsobremi;
+    text-align: center;
+img{
+    width: 500px;
+    min-width: 250px;
+}
+}
+.h2sobremi{
+    grid-area: h2sobremi;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+    h2{
+    font-size: 120%;
+    }
+}
+.imgsobremi1{
+    grid-area: imgsobremi1;
+    text-align: center;
+    margin-bottom: 5px;
+    min-width: 250px;
+}
+.h3sobremi1{
+    grid-area: h3sobremi1;
+    text-align: center;
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    h3{
+    font-size: 120%;
+    }
+}

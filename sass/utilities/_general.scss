@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+//inicio css general
+main{
+    grid-area: main;
+    margin-top: 9rem;
+}
+//img generales
+img{
+    border: 5px solid $basecolor;
+}

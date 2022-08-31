@@ -3,16 +3,61 @@
 		text-align: center;
 			.grillaGeneral {
 				display: grid;
-				grid-template-columns: repeat (2,1fr) grid-templeate-areas "header header" 
+				grid-template-columns: 1fr;
+                grid-template-areas:
+				"header header" 
 				"main main" 
 				"footer footer";
-			}
 			main{
-				margin-top: 15rem;
 			.imgProductosDestacados {
+				margin: 5px;
 				flex-direction: column;
 				align-content: space-around;
+		}
+	}
+	}
+}
+.grillasobremi{
+	display: grid;
+	grid-template-columns: 100%;
+    grid-template-areas:  
+	"h1sobremi"
+	"imgsobremi" 
+	"h2sobremi" 
+	"imgsobremi1"
+	"h3sobremi1"
+}
+}
+@media(max-width:501px) {
+    main{
+		section{
+			h1{
+				font-size: 130%;
+			}
+		}
+		}
+	.grillasobremi{
+		h1{
+			font-size: 120%;
+		}
+		div{
+			img{
+				max-width: 320px;
 			}
 		}
 	}
-}
+	.presupuesto{
+		div{
+			img{
+				max-width: 320;
+			}
+		}
+	}
+	.catalogo{
+		div{
+			img{
+				max-width: 320;
+			}
+		}
+	}
+    }

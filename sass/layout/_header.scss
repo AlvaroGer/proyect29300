@@ -14,7 +14,7 @@ header{
                 a {
                     transition: all 0.5s ease;
                     &:hover {
-                        background: #DCD7C9;
+                        background: $thirdcolor;
                         color: #000;
                         border-radius: 15px;
                     }
