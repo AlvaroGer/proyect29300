@@ -1,7 +1,6 @@
 @import "./utilities/variables";
 @import "./utilities/general";
 @import "./utilities/grid";
-@import "./utilities/media";
 @import "./layout/header";
 @import "./layout/footer";
 @import "./layout/Index";
@@ -9,6 +8,7 @@
 @import "./layout/sobremi";
 @import "./layout/galery";
 @import "./layout/contact";
+@import "./utilities/media";
 @import "./utilities/_mixin.scss";
 
 
